@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Google Tag Manager -->
+     <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MPRP5PG');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive4Cash</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPRP5PG" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-md-center conteudo">
+            <div class="col-md-8 col-sm-12 info">
+                <div class="row">
+                    <div class="col-md-12 infoHeader">
+                        <h4>Tudo que você precisa saber sobre apps de transporte e delivery</h4>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-md-center">                  
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="">
+                                    <h5>Sucesso!</h5>
+                                   <h6>O ebook foi enviado para seu email.</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="d-flex justify-content-md-center links">
+                            <a href="https://www.drive4cash.com.br/" target="_blank"><img src="img/logo2.jpg"></a>
+                            <a href="#"><img src="img/insta 1.svg"></a>
+                            <a href="https://www.facebook.com/Drive-4-Cash-108443814202671/" target="_blank"
+                                id="facebook-btn"><img src="img/fb 1.svg"></a>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="containerForm">
+
+                    <div class="header">
+                        <h1>Baixe seu ebook</h1>
+                    </div>
+                    <form class="form">
+
+                        <div class="obrigatorio">
+                            <small class="form-text">* Campos obrigatórios</small>
+                        </div>
+                        <div class="form-group">
+
+                            <label for="name">* Nome</label>
+                            <input type="text" class="form-control" id="name" name="name" pattern="^\D{2,}\s[\D\s]{2,}$"
+                                oninvalid="this.setCustomValidity('Por favor, digite seu nome completo')"
+                                oninput="this.setCustomValidity('')" placeholder="Nome completo" required>
+                           
+                        </div>
+                        <div class="form-group">
+                            <label for="email">* Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                oninvalid="this.setCustomValidity('Por favor, coloque um email válido')"
+                                oninput="this.setCustomValidity('')" placeholder="Seu melhor email" required>
+                        </div>
+<!--
+                        <button type="submit" class="btn float-right" data-toggle="modal"
+                            data-target="#exampleModalCenter">Baixar
+                            ebook</button>-->
+                            <button type="submit" class="btn float-right" id="download-btn">Baixar
+                            ebook</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <section>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Obrigada!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Sucesso, o ebook foi enviado para seu email.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./js/envia.js"></script>
+
+</body>
+
+</html>
